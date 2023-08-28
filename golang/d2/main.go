@@ -27,7 +27,6 @@ func main() {
 
 		totalScore1 += calScore(a, b)
 		bAction := actionToScore2(a, b)
-		println(a, bAction)
 		totalScore2 += calScore(a, bAction)
 	}
 
